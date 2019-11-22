@@ -29,18 +29,18 @@ public final class Main {
         double moneyLeft;
 
         //Constantes
-        final String Name = "Marta";
-        final String Articulo = "Pulsera hippy";
-        final double PagaAbu = 1;
-        final double PrecioPulsera = 0.7;
+        final String NAME = "Marta";
+        final String ARTICULO = "Pulsera hippy";
+        final double PAGA_ABU = 1;
+        final double PRECIO_PULSERA = 0.7;
 
         System.out.printf("Secuencia de Canicas%n====================%n");
-        System.out.printf("Nombre de la canica ........: %s%n", Name);
-        System.out.printf(Locale.ENGLISH, "Dinero inicial ......: %.2f €%n", PagaAbu);
+        System.out.printf("Nombre de la canica ........: %s%n", NAME);
+        System.out.printf(Locale.ENGLISH, "Dinero inicial ......: %.2f €%n", PAGA_ABU);
         System.out.printf("---%n");
-        System.out.printf("Artículo a comprar ..: %s €%n", Articulo);
-        System.out.printf(Locale.ENGLISH, "Precio artículo .....: %.2f €%n", PrecioPulsera);
-        moneyLeft = PagaAbu - PrecioPulsera;
+        System.out.printf("Artículo a comprar ..: %s €%n", ARTICULO);
+        System.out.printf(Locale.ENGLISH, "Precio artículo .....: %.2f €%n", PRECIO_PULSERA);
+        moneyLeft = PAGA_ABU - PRECIO_PULSERA;
         System.out.printf("---%n");
         System.out.printf(Locale.ENGLISH, "Dinero restante .....: %.2f €%n", moneyLeft);
 
